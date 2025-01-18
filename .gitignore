@@ -6,3 +6,4 @@ data/ashrae-energy-prediction/train.csv
 data/ashrae-energy-prediction/weather_test.csv
 data/ashrae-energy-prediction/weather_train.csv
 data/.DS_Store
+*.csv
