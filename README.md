@@ -64,16 +64,3 @@ The following models were trained and evaluated:
 
 Random Forest achieved the best performance with an RMSLE of **0.2750**.
 
-## Hyperparameter Tuning
-
-Grid search and cross-validation were used for hyperparameter optimization. The validation set (20% of training data) was used for tuning. Key hyperparameters adjusted:
-
-- **Random Forest**: Number of estimators, max depth, min samples split.
-- **LightGBM & XGBoost**: Learning rate, number of leaves, tree depth.
-
-## Deployment Strategy
-
-- Model deployed as a REST API or batch processing pipeline.
-- Continuous monitoring for model drift and re-training on updated data.
-- Security measures include encryption, access control, and rate limiting.
-
